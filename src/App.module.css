@@ -1,0 +1,27 @@
+.app {
+  display: flex;
+}
+
+.itemCon {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+  width: 50%;
+}
+
+.total {
+  position: fixed;
+  bottom: 1rem;
+  right: 30%;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.item {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 1rem;
+}
